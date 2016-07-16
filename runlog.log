@@ -1,0 +1,306 @@
+Updated file E:\Workspace\Test\build.xml
+Unable to locate tools.jar. Expected to find it in C:\Program Files\Java\jre1.8.0_91\lib\tools.jar
+Buildfile: E:\Workspace\Test\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\UiAutomator\SDK
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.1
+     [echo] Resolving Build Target for build...
+[getuitarget] Project Target:   Android 6.0
+[getuitarget] API level:        23
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+BUILD FAILED
+E:\UiAutomator\SDK\tools\ant\uibuild.xml:183: Unable to find a javac compiler;
+com.sun.tools.javac.Main is not on the classpath.
+Perhaps JAVA_HOME does not point to the JDK.
+It is currently set to "C:\Program Files\Java\jre1.8.0_91"
+
+Total time: 0 seconds
+error: device '(null)' not found
+error: device '(null)' not found
+Updated file E:\Workspace\Test\build.xml
+Buildfile: E:\Workspace\Test\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\UiAutomator\SDK
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.1
+     [echo] Resolving Build Target for build...
+[getuitarget] Project Target:   Android 6.0
+[getuitarget] API level:        23
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Workspace\Test\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Workspace\Test\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Workspace\Test\bin\build.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+* daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+4 KB/s (5039 bytes in 1.000s)
+INSTRUMENTATION_RESULT: shortMsg=java.lang.RuntimeException
+
+INSTRUMENTATION_RESULT: longMsg=Didn't find class "com.pagoda.UiAutomator.Test" on path: DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/uiautomator.jar", zip file "/data/local/tmp/build.jar"],nativeLibraryDirectories=[/vendor/lib, /system/lib]]
+
+INSTRUMENTATION_CODE: 0
+
+Updated file E:\Workspace\Test\build.xml
+Buildfile: E:\Workspace\Test\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\UiAutomator\SDK
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.1
+     [echo] Resolving Build Target for build...
+[getuitarget] Project Target:   Android 6.0
+[getuitarget] API level:        23
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\Workspace\Test\bin\classes
+    [javac] 警告: [options] 源值1.5已过时, 将在未来所有发行版中删除
+    [javac] 警告: [options] 目标值1.5已过时, 将在未来所有发行版中删除
+    [javac] 警告: [options] 要隐藏有关已过时选项的警告, 请使用 -Xlint:-options。
+    [javac] 3 个警告
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Workspace\Test\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Workspace\Test\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Workspace\Test\bin\build.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+313 KB/s (5040 bytes in 0.015s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.pagoda.test.Test:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testchengshi
+
+INSTRUMENTATION_STATUS: class=com.pagoda.test.Test
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testchengshi
+
+INSTRUMENTATION_STATUS: class=com.pagoda.test.Test
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 2.988
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file E:\Workspace\Test\build.xml
+Buildfile: E:\Workspace\Test\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\UiAutomator\SDK
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.1
+     [echo] Resolving Build Target for build...
+[getuitarget] Project Target:   Android 6.0
+[getuitarget] API level:        23
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 2 source files to E:\Workspace\Test\bin\classes
+    [javac] 警告: [options] 源值1.5已过时, 将在未来所有发行版中删除
+    [javac] 警告: [options] 目标值1.5已过时, 将在未来所有发行版中删除
+    [javac] 警告: [options] 要隐藏有关已过时选项的警告, 请使用 -Xlint:-options。
+    [javac] E:\Workspace\Test\src\com\pagoda\test\CtsHelper.java:19: 警告: 编码UTF-8的不可映射字符
+    [javac] 	 * 思路??
+    [javac] 	     ^
+    [javac] E:\Workspace\Test\src\com\pagoda\test\CtsHelper.java:20: 警告: 编码UTF-8的不可映射字符
+    [javac] 	 * 1.编译且复制jar包到CTS TestCase目录??
+    [javac] 	                             ^
+    [javac] E:\Workspace\Test\src\com\pagoda\test\CtsHelper.java:42: 警告: 编码UTF-8的不可映射字符
+    [javac] 	//以下字段不需要改??
+    [javac] 	          ^
+    [javac] E:\Workspace\Test\src\com\pagoda\test\CtsHelper.java:124: 警告: 编码UTF-8的不可映射字符
+    [javac] 	 * 传入?? 工程工作空间，class全名，jarname,androidid，SDK路径
+    [javac] 	     ^
+    [javac] E:\Workspace\Test\src\com\pagoda\test\CtsHelper.java:145: 警告: 编码UTF-8的不可映射字符
+    [javac] 		//编译 将编译的jar复制到CTS testcase目录??
+    [javac] 		                             ^
+    [javac] E:\Workspace\Test\src\com\pagoda\test\CtsHelper.java:157: 警告: 编码UTF-8的不可映射字符
+    [javac] 		//输出log文件路径和结果文件路??
+    [javac] 		                 ^
+    [javac] E:\Workspace\Test\src\com\pagoda\test\CtsHelper.java:166: 警告: 编码UTF-8的不可映射字符
+    [javac] 	 * ??求：多个手机情况下，指定某个手机运行
+    [javac] 	   ^
+    [javac] E:\Workspace\Test\src\com\pagoda\test\CtsHelper.java:189: 警告: 编码UTF-8的不可映射字符
+    [javac] 	 * ??求：获取tools下jar路径组合为cp 格式字符??
+    [javac] 	   ^
+    [javac] E:\Workspace\Test\src\com\pagoda\test\CtsHelper.java:189: 警告: 编码UTF-8的不可映射字符
+    [javac] 	 * ??求：获取tools下jar路径组合为cp 格式字符??
+    [javac] 	                              ^
+    [javac] E:\Workspace\Test\src\com\pagoda\test\CtsHelper.java:210: 警告: 编码UTF-8的不可映射字符
+    [javac] 		//风起于青萍之末，英雄不问出处,??之凿凿，句句在理
+    [javac] 		                 ^
+    [javac] E:\Workspace\Test\src\com\pagoda\test\CtsHelper.java:224: 警告: 编码UTF-8的不可映射字符
+    [javac] 			//TestSuite 按点分开逐步??  com.lenovo.uitest.calculator.CalculatorCase_V2_1
+    [javac] 			                  ^
+    [javac] E:\Workspace\Test\src\com\pagoda\test\CtsHelper.java:237: 警告: 编码UTF-8的不可映射字符
+    [javac] 			//与suite同数??
+    [javac] 			          ^
+    [javac] E:\Workspace\Test\src\com\pagoda\test\CtsHelper.java:262: 警告: 编码UTF-8的不可映射字符
+    [javac] 	 * 保存内容到指定文??
+    [javac] 	           ^
+    [javac] E:\Workspace\Test\src\com\pagoda\test\CtsHelper.java:325: 警告: 编码UTF-8的不可映射字符
+    [javac] 	 * 获取??有的用例名，文件解析方式
+    [javac] 	     ^
+    [javac] E:\Workspace\Test\src\com\pagoda\test\CtsHelper.java:362: 警告: 编码UTF-8的不可映射字符
+    [javac] 	 * ??求：获取结果路径，log路径
+    [javac] 	   ^
+    [javac] E:\Workspace\Test\src\com\pagoda\test\Test.java:50: 警告: 编码UTF-8的不可映射字符
+    [javac] 	//???????
+    [javac] 	  ^
+    [javac] E:\Workspace\Test\src\com\pagoda\test\Test.java:50: 警告: 编码UTF-8的不可映射字符
+    [javac] 	//???????
+    [javac] 	   ^
+    [javac] E:\Workspace\Test\src\com\pagoda\test\Test.java:50: 警告: 编码UTF-8的不可映射字符
+    [javac] 	//???????
+    [javac] 	    ^
+    [javac] E:\Workspace\Test\src\com\pagoda\test\Test.java:50: 警告: 编码UTF-8的不可映射字符
+    [javac] 	//???????
+    [javac] 	      ^
+    [javac] E:\Workspace\Test\src\com\pagoda\test\Test.java:50: 警告: 编码UTF-8的不可映射字符
+    [javac] 	//???????
+    [javac] 	       ^
+    [javac] E:\Workspace\Test\src\com\pagoda\test\Test.java:50: 警告: 编码UTF-8的不可映射字符
+    [javac] 	//???????
+    [javac] 	        ^
+    [javac] 24 个警告
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Workspace\Test\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Workspace\Test\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Workspace\Test\bin\build.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+Updated file E:\Workspace\Test\build.xml
+Buildfile: E:\Workspace\Test\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\UiAutomator\SDK
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.1
+     [echo] Resolving Build Target for build...
+[getuitarget] Project Target:   Android 6.0
+[getuitarget] API level:        23
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\Workspace\Test\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\Workspace\Test\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\Workspace\Test\bin\build.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
